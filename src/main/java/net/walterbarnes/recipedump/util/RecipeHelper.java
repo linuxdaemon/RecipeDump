@@ -6,8 +6,8 @@ import net.minecraft.item.crafting.ShapedRecipes;
 import net.minecraft.item.crafting.ShapelessRecipes;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 import net.minecraftforge.oredict.ShapelessOreRecipe;
-import net.walterbarnes.recipedump.OreStack;
-import net.walterbarnes.recipedump.WrappedStack;
+import net.walterbarnes.recipedump.stack.OreStack;
+import net.walterbarnes.recipedump.stack.WrappedStack;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package net.walterbarnes.recipedump;
+package net.walterbarnes.recipedump.stack;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;

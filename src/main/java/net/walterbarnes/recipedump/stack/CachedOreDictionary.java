@@ -1,4 +1,4 @@
-package net.walterbarnes.recipedump;
+package net.walterbarnes.recipedump.stack;
 
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.ImmutableMultimap;

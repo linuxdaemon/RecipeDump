@@ -9,9 +9,9 @@ import ic2.core.AdvRecipe;
 import ic2.core.AdvShapelessRecipe;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.IRecipe;
-import net.walterbarnes.recipedump.OreStack;
+import net.walterbarnes.recipedump.stack.OreStack;
 import net.walterbarnes.recipedump.RecipeDump;
-import net.walterbarnes.recipedump.WrappedStack;
+import net.walterbarnes.recipedump.stack.WrappedStack;
 import net.walterbarnes.recipedump.util.RecipeHelper;
 
 import java.util.*;

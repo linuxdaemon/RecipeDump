@@ -1,4 +1,4 @@
-package net.walterbarnes.recipedump;
+package net.walterbarnes.recipedump.stack;
 
 import com.google.gson.*;
 import net.minecraft.block.Block;
