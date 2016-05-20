@@ -124,7 +124,7 @@ local.properties
 
 # Created by .ignore support plugin (hsz.mobi)
 
-eclipse/*
+run/*
 libs
-!/eclipse/recipes.json
+!/run/recipes.json
 
