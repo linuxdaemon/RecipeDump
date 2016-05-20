@@ -429,6 +429,11 @@ public class WrappedStack implements Comparable<WrappedStack>, JsonDeserializer<
 
         jsonWrappedStack.addProperty("type", wrappedStack.objectType);
         jsonWrappedStack.addProperty("stackSize", wrappedStack.stackSize);
+        String dispName = wrappedStack.getDisplayName();
+        if (dispName != null)
+        {
+            jsonWrappedStack.addProperty("displayName", dispName);
+        }
 
         if (wrappedStack.wrappedStack instanceof ItemStack)
         {
@@ -452,6 +457,14 @@ public class WrappedStack implements Comparable<WrappedStack>, JsonDeserializer<
         }
 
         return jsonWrappedStack;
+    }
+
+    private String getDisplayName() {
+        if (objectType.equals("itemstack"))
+        {
+            return ((ItemStack) wrappedStack).getDisplayName();
+        }
+        return null;
     }
 
     /**
